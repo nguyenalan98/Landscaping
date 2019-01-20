@@ -1,0 +1,278 @@
+/* Font Source: https://fonts.google.com/specimen/Muli*/
+/* Font License: CC0 Creative Commons */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.navbar{
+  background-color: #334D7B;
+  overflow: hidden;
+  padding:0px 0px;
+  width:100%;
+  height: 15vh;
+  position: relative;
+}
+
+#title {
+  float:left;
+  padding: 40px 20px;
+  height: 80%;
+  margin: auto 10px;
+}
+
+.navbar p {
+  color:white;
+  text-align:center;
+  /* line-height: 100%; */
+  font-weight: 500;
+  font-size: 4vh;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+
+  float: right;
+  margin: auto;
+  padding-right: 20px;
+  padding-top: 2vh;
+}
+
+.navbar a {
+  float:left;
+  color: white;
+  /* height: 80%; */
+  line-height: 80%;
+  text-align: center;
+  padding: 10px 10px;
+  margin: auto 10px;
+  text-decoration: none;
+  vertical-align: center;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  /* background-color: #63d56a; */
+  color: #FEFD12;
+}
+
+.content {
+  margin: auto;
+  padding: 20px 40px;
+  height: 100%;
+  /* padding: 20px; */
+}
+
+#footer{
+  /*position: fixed;*/
+  padding: 30px 0px 50px;;
+  bottom:0;
+  background-color: #334D7B;
+  color:white;
+  text-align: center;
+  width:100%;
+  float: left;
+}
+
+#leftFooter {
+  float: left;
+  text-align: left;
+  padding: 0 40px 40px 80px;
+}
+#rightFooter {
+  float: left;
+  text-align: left;
+  padding: 0 40px 10px 30vw;
+}
+.contact_info img {
+  float: left;
+  width: 20px;
+  padding: 10px 0px;
+}
+.contact_info p {
+  float: left;
+  margin: 10px;
+}
+
+html {
+  font-family: 'Muli',sans-serif;
+}
+
+body{
+  background-color: #63d56a;
+  margin: 0;
+}
+
+input[type=number]{
+  width:30%;
+  padding:10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #334D7B;
+  border-radius: 2px;
+  background-color:white;
+  color: #334D7B;
+  outline:none;
+  font-weight: bold;
+  position: sticky;
+  left: 300px;
+  width:75%;
+  text-align: center;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.submit{
+  background-color: white;
+  border: #334D7B;
+  color: #334D7B;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  border: 2px solid #334D7B;
+  font-weight: bold;
+  width:95%;
+  position:sticky;
+  left: 150px;
+}
+
+/* Navigation bar stuff */
+
+#nav ul {
+  padding: 5px;
+  display: flex;
+  list-style: none;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#nav li {
+  flex: 0 1 auto;
+  display: block;
+  list-style-type: none;
+}
+
+#navBackground{
+  background-color: #63d56a;
+}
+
+/* I feel like it's cleaner without this so
+the nav bar doesn't vary with each click
+- Joaquin
+
+.notCurrentPage{
+  font-size: 14px;
+} */
+
+#currentPage{
+  /* font-size: 20px; */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#left-div {
+  float:left;
+  width:45%;
+  margin-left:5%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+}
+
+#right-div {
+  float:right;
+  width:40%;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-bottom: 3%;
+}
+
+#pricecheck{
+  padding:10px;
+  margin-bottom: 40px;
+}
+
+input[type=checkbox]{
+  padding:10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #334D7B;
+  border-radius: 2px;
+  background-color:white;
+  color: #334D7B;
+  outline:none;
+  position: sticky;
+  left:460px;
+  height:20px;
+}
+
+#displaymessage{
+  text-align: center;
+  vertical-align: center;
+  padding: 10px;
+}
+
+fieldset {
+  border: black solid 3px;
+  padding:10px;
+}
+#lgm{
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.content{
+  align-content: center;
+  align-self: center;
+  padding:20px;
+}
+
+#adminfuncs{
+  margin-bottom:30px;
+}
+
+input[type=text]{
+  padding:10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #334D7B;
+  border-radius: 2px;
+  background-color:white;
+  color: #334D7B;
+  outline:none;
+  font-weight: bold;
+  width:95%;
+}
+
+input[type=file]{
+  width:30%;
+  padding:10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #334D7B;
+  border-radius: 2px;
+  background-color:white;
+  color: #334D7B;
+  outline:none;
+  font-weight: bold;
+  width: 95%;
+}
+
+input[type=password]{
+  padding:10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #334D7B;
+  border-radius: 2px;
+  background-color:white;
+  color: #334D7B;
+  outline:none;
+  font-weight: bold;
+}
