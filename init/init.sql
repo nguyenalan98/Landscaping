@@ -92,7 +92,7 @@ INSERT INTO projects_tags (project_id, tag_id) VALUES (20,4);
 INSERT INTO projects_tags (project_id, tag_id) VALUES (23,5);
 
 /* TODO: initial seed data */
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('1.jpg','jpg', 'Project 1');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('1.JPG','JPG', 'Project 1');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('2.JPG','JPG', 'Project 2');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('3.JPG','JPG', 'Project 3');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('4.JPG','JPG', 'Project 4');
