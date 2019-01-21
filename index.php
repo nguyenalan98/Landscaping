@@ -34,7 +34,7 @@ $current_page = "index";
         </div>
         <div class="service">
           <h3>Trimming </h3>
-          <img src="/uploads/projects/6.JPG" alt="trim">
+          <img src="/uploads/projects/6.jpg" alt="trim">
           <p class="service_info"> Not only do we do lawn mowing; upon request, we can maintain your gardens' small trees, hedges, and bushes looking clean cut.</p>
         </div>
         <div class="service">
