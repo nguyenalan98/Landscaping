@@ -92,15 +92,15 @@ INSERT INTO projects_tags (project_id, tag_id) VALUES (20,4);
 INSERT INTO projects_tags (project_id, tag_id) VALUES (23,5);
 
 /* TODO: initial seed data */
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('1.JPG','JPG', 'Project 1');
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('2.JPG','JPG', 'Project 2');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('1.jpg','jpg', 'Project 1');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('2.jpg','jpg', 'Project 2');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('3.JPG','JPG', 'Project 3');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('4.JPG','JPG', 'Project 4');
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('5.JPG','JPG', 'Project 5');
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('6.JPG','JPG', 'Project 6');
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('7.JPG','JPG', 'Project 7');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('5.jpg','jpg', 'Project 5');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('6.jpg','jpg', 'Project 6');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('7.jpg','jpg', 'Project 7');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('8.JPG','JPG', 'Project 8');
-INSERT INTO projects (image_name,image_ext, project_name) VALUES ('9.JPG','JPG', 'Project 9');
+INSERT INTO projects (image_name,image_ext, project_name) VALUES ('9.jpg','jpg', 'Project 9');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('10.JPG','JPG', 'Project 10');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('11.JPG','JPG', 'Project 11');
 INSERT INTO projects (image_name,image_ext, project_name) VALUES ('12.JPG','JPG', 'Project 12');
