@@ -140,7 +140,6 @@ if($current_user == NULL){
     "announcements"=>"Announcements",
     "projects"=>"Projects",
     "quote"=>"Quotes",
-    "login"=>"Log In"
   );
 }
 else{
@@ -149,8 +148,6 @@ else{
     "announcements"=>"Announcements",
     "projects"=>"Projects",
     "quote"=>"Quotes",
-    "admin"=>"Admin",
-    "logout"=>"Log Out"
   );
 }
 
