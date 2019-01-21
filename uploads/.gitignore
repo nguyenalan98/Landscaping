@@ -2,21 +2,25 @@
 !.gitignore
 
 !/icons/
+!/icons/*
+
+!/icons/icon_email.png
+!/icons/icon_phone.png
 
 !/projects/
 /projects/*
 
 !/projects/1.jpg
-!/projects/2.JPG
-!/projects/3.JPG
-!/projects/4.JPG
-!/projects/5.JPG
-!/projects/6.JPG
-!/projects/7.JPG
-!/projects/8.JPG
-!/projects/9.JPG
-!/projects/10.JPG
-!/projects/11.JPG
+!/projects/2.jpg
+!/projects/3.jpg
+!/projects/4.jpg
+!/projects/5.jpg
+!/projects/6.jpg
+!/projects/7.jpg
+!/projects/8.jpg
+!/projects/9.jpg
+!/projects/10.jpg
+!/projects/11.jpg
 !/projects/12.JPG
 !/projects/13.JPG
 !/projects/14.JPG
